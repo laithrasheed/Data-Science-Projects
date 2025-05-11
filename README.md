@@ -1,2 +1,2 @@
-![image](D:\1-My_GitHub_Repos\Computer-Vision-Projects\Headline image.PNG)
+![image](https://github.com/laithrasheed/Computer-Vision-Projects/blob/main/Headline%20image.PNG)
 # Computer Vision Projects
