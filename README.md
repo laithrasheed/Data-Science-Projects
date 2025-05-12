@@ -5,7 +5,7 @@
 
 ## Introduction
 
-The main goal is to apply **Data Science Methodology** and mimic the business scenario I may face.
+The main goal is to apply **Data Science Methodology** and mimic the business scenario I may face. You can observe stages of Data Science Methodlogy shown in the below image
 
 ## Projects
 
