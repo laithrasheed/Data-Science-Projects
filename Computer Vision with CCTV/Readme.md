@@ -44,5 +44,6 @@ poetry export -f requirements.txt --output requirements.txt --without-hashes
 git add requirements.txt
 git commit -m "Update requirements.txt"
 git push origin main
-Write-Host "✅ requirements.txt updated and committed to Git!"
+Write-Host "requirements.txt updated and committed to Git!"
 ```
+- Finally run `.\update-reqs.ps1` on your terminal.
