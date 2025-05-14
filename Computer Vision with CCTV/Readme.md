@@ -20,4 +20,29 @@ Following are the steps I have committed on my local machine before I start codi
 
 - Now, we are ready to add needed packages using poetry. Use `poetry add package`
 - It is recommended that whenever we add a new package, we track and share the `requirements.txt` file. Use the below command always whenever you add a new package and before committing:
-    - `poetry export -f requirements.txt --output requirements.txt --without-hashes`
+    - `poetry export -f requirements.txt --output requirements.txt --without-hashes` **Automation Tip**
+
+
+
+## Automation
+
+I was thinking if I can create files with `ps1` extension, (Since I'm using Windows Power Shell), to automate my git commands. Below is the step by step:
+
+- Manually create a new file in the directory ensure using meaning name with `ps1` extension. 
+- Add the wanted command inside the file
+- Save the file, if you want to run it use: `.\meaning-name.ps1`
+- In case of having a security error use the below command, which you may need this step only once:
+    - `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass`
+
+**Example**: I want to automate the process of tracking `requirements.txt` file as follows:
+- I have created manually a new file named `update-reqs.ps1` in Computer Vision with CCTV direcotry.
+- I have added the below script:
+
+```powershell
+# This script updates requirements.txt from Poetry, commits the changes to Git, and pushes to the main branch.
+poetry export -f requirements.txt --output requirements.txt --without-hashes
+git add requirements.txt
+git commit -m "Update requirements.txt"
+git push origin main
+Write-Host "✅ requirements.txt updated and committed to Git!"
+```
