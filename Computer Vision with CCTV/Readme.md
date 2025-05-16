@@ -35,7 +35,7 @@ I was thinking if I can create files with `ps1` extension, (Since I'm using Wind
     - `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass`
 
 **Example**: I want to automate the process of tracking `requirements.txt` file as follows:
-- I have created manually a new file named `update-reqs.ps1` in Computer Vision with CCTV direcotry.
+- I have created manually a new file named `update-reqs.ps1` in Computer Vision with CCTV directory.
 - I have added the below script:
 
 ```powershell
@@ -53,4 +53,4 @@ Write-Host "requirements.txt updated and committed to Git!"
 
 - **update-reqs.ps1**: Used to update, commit, and push `requirements.txt` file with updated packages. You run it anytime needed when you add new packages using poetry. 
 
-- **setup-venv-kernel.ps1**: Used to create a kernel for the virtual environment created by poetry. Use it once in order to start coding with your notebook. Refresh VS Code, then navifate to `select kernel` where VS Code automaticllay will recommend you the kernel. 
+- **setup-venv-kernel.ps1**: Used to create a kernel for the virtual environment created by poetry. Use it once in order to start coding with your notebook. Refresh VS Code, then navigate to `select kernel` where VS Code automatically will recommend you the kernel. 
