@@ -44,3 +44,11 @@ if not os.path.exists(readme_path):
 repo.git_add()
 repo.git_commit("Initial commit with dataset folder structure")
 repo.git_push()
+
+# Clean up local clone
+response = input(f"Do you want to delete the local folder '{local_dir}'? [y/N]: ")
+if response.lower() == "y":
+    shutil.rmtree(local_dir)
+    print(f"Deleted: {local_dir}")
+else:
+    print("Skipped deletion.")
