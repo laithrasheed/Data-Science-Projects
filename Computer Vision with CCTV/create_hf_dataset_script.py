@@ -17,24 +17,24 @@ with open(args.token_path, "r") as f:
 # Login programmatically
 login(token=hf_token)
 
-# Create repo
+# Create repo on HF
 api = HfApi()
 full_repo_name = f"{args.username}/{args.dataset}"
 api.create_repo(repo_id=full_repo_name, repo_type="dataset", exist_ok=True)
 
-# Clone it locally
-local_dir = f"./{args.dataset}"
+# Clone it locally (into a subfolder)
+local_dir = os.path.abspath(args.dataset)
 repo = Repository(local_dir=local_dir, clone_from=full_repo_name, repo_type="dataset")
 
-# Create directories
+# Create subfolders *inside the cloned repo*
 folders = ["raw", "train", "test", "valid", "references"]
 for folder in folders:
-    os.makedirs(folder, exist_ok=True)
-    with open(os.path.join(folder, ".gitkeep"), "w") as f:
+    path = os.path.join(local_dir, folder)
+    os.makedirs(path, exist_ok=True)
+    with open(os.path.join(path, ".gitkeep"), "w") as f:
         pass
 
-
-# Optional README
+# README inside the cloned repo
 readme_path = os.path.join(local_dir, "README.md")
 if not os.path.exists(readme_path):
     with open(readme_path, "w") as f:
