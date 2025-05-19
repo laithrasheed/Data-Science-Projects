@@ -54,3 +54,5 @@ Write-Host "requirements.txt updated and committed to Git!"
 - **update-reqs.ps1**: Used to update, commit, and push `requirements.txt` file with updated packages. You run it anytime needed when you add new packages using poetry. 
 
 - **setup-venv-kernel.ps1**: Used to create a kernel for the virtual environment created by poetry. Use it once in order to start coding with your notebook. Refresh VS Code, then navigate to `select kernel` where VS Code automatically will recommend you the kernel. 
+
+- **create_hf_dataset.ps1**: It is associated with **create_hf_dataset_script.py**. Used to create a new Hugging Face dataset repository, where I have designed it to have the following directories: **raw**, **train**, **test**, **valid**, **references**.
