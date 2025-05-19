@@ -56,3 +56,5 @@ Write-Host "requirements.txt updated and committed to Git!"
 - **setup-venv-kernel.ps1**: Used to create a kernel for the virtual environment created by poetry. Use it once in order to start coding with your notebook. Refresh VS Code, then navigate to `select kernel` where VS Code automatically will recommend you the kernel. 
 
 - **create_hf_dataset.ps1**: It is associated with **create_hf_dataset_script.py**. Used to create a new Hugging Face dataset repository, where I have designed it to have the following directories: **raw**, **train**, **test**, **valid**, **references**.
+
+- **upload_mp4_to_raw.ps1**: It is associated with **upload_mp4_to_raw_script.py**. Used to upload mp4 files that are stored in a nested structure, where a recursive for loop is being used to extract those mp4 files. The process will push extracted mp4 files from my local to HF repository.
