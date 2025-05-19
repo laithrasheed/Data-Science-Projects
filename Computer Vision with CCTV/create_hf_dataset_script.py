@@ -2,6 +2,7 @@
 import argparse
 import os
 from huggingface_hub import HfApi, Repository, login
+import shutil
 
 # Arguments
 parser = argparse.ArgumentParser()
