@@ -11,6 +11,7 @@ pandas = "^2.2.3"
 notebook = "^7.4.2"
 ipykernel = "^6.29.5"
 huggingface-hub = "^0.31.2"
+opencv-python = "^4.11.0.86"
 
 
 [build-system]
