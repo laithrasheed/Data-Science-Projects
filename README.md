@@ -16,7 +16,7 @@ Below, you can find projects where I am mentioning the problem statement given b
 ## Projects
 
 
-### [Computer Vision with CCTV](https://github.com/laithrasheed/Computer-Vision-Projects/tree/main/Computer%20Vision%20with%20CCTV)
+### [Computer Vision with Tiny_VIRAT](https://github.com/laithrasheed/Data-Science-Projects/tree/main/Computer%20Vision%20with%20Tiny-VIRAT)
 
 #### Problem Statement
 
