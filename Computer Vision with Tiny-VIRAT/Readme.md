@@ -22,6 +22,8 @@ Following are the steps I have committed on my local machine before I start codi
 - It is recommended that whenever we add a new package, we track and share the `requirements.txt` file. Use the below command always whenever you add a new package and before committing:
     - `poetry export -f requirements.txt --output requirements.txt --without-hashes` **Automation Tip**
 
+- The following command will make the kernel detects out **.venv** file `python -m ipykernel install --user --name=poetry-env --display-name "Python (poetry)"`
+
 
 
 ## Automation
