@@ -1,4 +1,4 @@
-![image](https://github.com/laithrasheed/Computer-Vision-Projects/blob/main/Headline%20image.PNG)
+![image]([https://github.com/laithrasheed/Computer-Vision-Projects/blob/main/Headline%20image.PNG](https://github.com/laithrasheed/Data-Science-Projects/blob/main/References/LinkedIn%20cover%20V4-%20Plain%20-%20Cropped.png))
 # Computer Vision Projects
 
 
