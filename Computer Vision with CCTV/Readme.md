@@ -1,5 +1,5 @@
-![image](https://github.com/laithrasheed/Computer-Vision-Projects/blob/main/Headline%20image.PNG)
-# Computer Vision with CCTV
+![image](https://github.com/laithrasheed/Data-Science-Projects/blob/main/Computer%20Vision%20with%20CCTV/LinkedIn%20cover%20V2%20-%20CROPPED.PNG)
+# Computer Vision with Tiny-VIRAT
 
 ## Problem Statement
 
