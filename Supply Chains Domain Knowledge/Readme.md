@@ -22,10 +22,10 @@ Starting from 26th of May 2025 I am developing this repository where I will appl
 
 ### Resources from Coursera
 
-- [Coursera Specialization - Leverage Data Science for a More Agile Supply Chain]()
-- [Coursera Course - GenAI for Supply Chain Optimization]()
-- [Coursera Specialization - Machine Learning or Supply Chains]()
-- [Coursera Professional Certificate - Unilever Supply Chain Data Analyst]()
+- [Coursera Specialization - Leverage Data Science for a More Agile Supply Chain](https://github.com/laithrasheed/Data-Science-Projects/tree/main/Supply%20Chains%20Domain%20Knowledge/Coursera%20Specialization%20-%20Leverage%20Data%20Science%20for%20a%20More%20Agile%20Supply%20Chain)
+- [Coursera Course - GenAI for Supply Chain Optimization](https://github.com/laithrasheed/Data-Science-Projects/tree/main/Supply%20Chains%20Domain%20Knowledge/Coursera%20Course%20-%20GenAI%20for%20Supply%20Chain%20Optimization)
+- [Coursera Specialization - Machine Learning or Supply Chains](https://github.com/laithrasheed/Data-Science-Projects/tree/main/Supply%20Chains%20Domain%20Knowledge/Coursera%20Specialization%20-%20Machine%20Learning%20or%20Supply%20Chains)
+- [Coursera Professional Certificate - Unilever Supply Chain Data Analyst](https://github.com/laithrasheed/Data-Science-Projects/tree/main/Supply%20Chains%20Domain%20Knowledge/Coursera%20Professional%20Certificate%20-%20Unilever%20Supply%20Chain%20Data%20Analyst)
 
 ### Kaggle Resources
 
