@@ -24,3 +24,4 @@ We are a Surveillance and CCTV company. We have a standard CCTV system, and we w
 
 ##### [Proposed Solution](https://github.com/laithrasheed/Computer-Vision-Projects/blob/main/Computer%20Vision%20with%20CCTV/Proposed%20Solution.ipynb)
 
+### [Supply Chains Domain Knowledge](https://github.com/laithrasheed/Data-Science-Projects/tree/main/Supply%20Chains%20Domain%20Knowledge)
