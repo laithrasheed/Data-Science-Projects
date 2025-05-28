@@ -7,8 +7,6 @@ $maxDepth = Read-Host "Enter the maximum depth (e.g., 2)"
 
 # Set up output file
 $outputFile = Join-Path -Path $path -ChildPath "tree_output.txt"
-
-# Clear or create the file
 "" | Out-File -FilePath $outputFile
 
 # Define the tree function
@@ -22,7 +20,7 @@ function Show-Tree {
     if ($CurrentDepth -ge $MaxDepth) { return }
 
     Get-ChildItem -LiteralPath $Path | ForEach-Object {
-        $prefix = ('│   ' * $CurrentDepth) + '├── '
+        $prefix = ('|   ' * $CurrentDepth) + '+-- '
         $line = "$prefix$($_.Name)"
         $line | Out-File -FilePath $outputFile -Append
 
