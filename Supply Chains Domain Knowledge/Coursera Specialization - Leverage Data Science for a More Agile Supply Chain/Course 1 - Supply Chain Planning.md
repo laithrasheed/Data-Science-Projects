@@ -34,4 +34,4 @@ Forecasting using:
 
 **Prompt**: Compute the simple moving average, weighted moving average, and exponential smoothing forecasts for the data in the Excel file `C1M1-Forecast Activity.xlsx`.
 
-**Response**: I will use Python to fill up the Excel workbook!
+**Response**: I will use Python to fill up the Excel workbook! `Course1-Supply-Chain-Planning.ipynb`
