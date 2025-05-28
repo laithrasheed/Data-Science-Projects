@@ -25,3 +25,13 @@ I already performed many projects similar using Python and R. We call that in th
 
 ## Develop Statistical Demand Forecast
 
+Forecasting using:
+- Moving Avg
+- Weighted Moving Avg
+- Exponential Smoothing 
+
+## Activity
+
+**Prompt**: Compute the simple moving average, weighted moving average, and exponential smoothing forecasts for the data in the Excel file `C1M1-Forecast Activity.xlsx`.
+
+**Response**: I will use Python to fill up the Excel workbook!
