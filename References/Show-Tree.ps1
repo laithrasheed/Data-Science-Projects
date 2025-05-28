@@ -3,7 +3,8 @@ $path = Read-Host "Enter the folder path (or leave blank for current directory)"
 if ([string]::IsNullOrWhiteSpace($path)) {
     $path = Get-Location
 }
-$maxDepth = Read-Host "Enter the maximum depth (e.g., 2)"
+$maxDepthInput = Read-Host "Enter the maximum depth (e.g., 2)"
+[int]$maxDepth = $maxDepthInput  # ✅ Correctly cast to integer
 
 # Set up output file
 $outputFile = Join-Path -Path $path -ChildPath "tree_output.txt"
@@ -19,7 +20,7 @@ function Show-Tree {
 
     if ($CurrentDepth -ge $MaxDepth) { return }
 
-    Get-ChildItem -LiteralPath $Path | ForEach-Object {
+    Get-ChildItem -LiteralPath $Path -Force | ForEach-Object {
         $prefix = ('|   ' * $CurrentDepth) + '+-- '
         $line = "$prefix$($_.Name)"
         $line | Out-File -FilePath $outputFile -Append
@@ -31,7 +32,7 @@ function Show-Tree {
 }
 
 # Run the tree builder
-Show-Tree -Path $path -MaxDepth [int]$maxDepth
+Show-Tree -Path $path -MaxDepth $maxDepth
 
 # Notify user and open the result
 Write-Host "Tree structure saved to: $outputFile"
