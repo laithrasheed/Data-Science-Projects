@@ -8,6 +8,8 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.12"
 pandas = "^2.2.3"
+openpyxl = "^3.1.5"
+matplotlib = "^3.10.3"
 
 
 [tool.poetry.group.dev.dependencies]
