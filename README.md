@@ -18,6 +18,11 @@ Below, you can find projects where I am mentioning the problem statement given b
 
 ### [Computer Vision with Tiny_VIRAT](https://github.com/laithrasheed/Data-Science-Projects/tree/main/Computer%20Vision%20with%20Tiny-VIRAT)
 
+#### Goals
+
+- To gain hands on experience and knowledge in the computer vision field.
+- To understand data preparation and EDA for video data.
+
 #### Problem Statement
 
 We are a Surveillance and CCTV company. We have a standard CCTV system, and we want to upgrade it into smart CCTVs. We want a solution that enables our cameras to detect human patterns, count objects, provide analysis within a 24-hour cooldown, and correctly detect the proper alert action for the system.
@@ -26,7 +31,13 @@ We are a Surveillance and CCTV company. We have a standard CCTV system, and we w
 
 ### [Supply Chains Domain Knowledge](https://github.com/laithrasheed/Data-Science-Projects/tree/main/Supply%20Chains%20Domain%20Knowledge)
 
+#### Goals
 
+- To gain knowledge by 
+
+#### Problem Statement
+
+We are a food and beverages manufacturers. We
 
 
 
