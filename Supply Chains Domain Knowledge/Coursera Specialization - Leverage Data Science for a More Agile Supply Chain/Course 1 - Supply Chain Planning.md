@@ -1,6 +1,9 @@
-# Demand Planning
+# Course 1: Supply Chain Planning
 
-## Define and Aggregate Relevant Data 
+
+## Demand Planning
+
+### Define and Aggregate Relevant Data 
 
 - Demand Planning: historical demand and determine future needs. Demand forecast
 - The first step in demand planning is gathering relevant information.
@@ -10,27 +13,27 @@
 Order history vs. shipment history. Cancellation is a challenge on both logs. 
 
 
-## Identify Influencing Factors
+### Identify Influencing Factors
 
 - Obvious factors on increasing or decreasing demands, like holidays and general events
 - Unpredictable factors / patterns may occur during unknown or unusual events, like COVID-19 pandemic. Are we able to predict such events ahead of time??
 - Correlation and regression functions in Excel. Python!!
 
-## Influencing Factors
+### Influencing Factors
 
 - The video showed how to calculate the correlation between different categories.
 - The video showed Regression analysis on Excel for sales value against 3 factors: SQFT, Bathrooms, and district..
 
 I already performed many projects similar using Python and R. We call that in the context of ML Supervised Learning.
 
-## Develop Statistical Demand Forecast
+### Develop Statistical Demand Forecast
 
 Forecasting using:
 - Moving Avg
 - Weighted Moving Avg
 - Exponential Smoothing 
 
-## Activity
+### Activity
 
 **Prompt**: Compute the simple moving average, weighted moving average, and exponential smoothing forecasts for the data in the Excel file `C1M1-Forecast Activity.xlsx`.
 
@@ -38,15 +41,15 @@ Forecasting using:
 
 - - -
 
-# Supply Planning
+## Supply Planning
 
-## Identify Demand for Each Product and Capacity
+### Identify Demand for Each Product and Capacity
 
 supply planning is the process of confirming the available internal and external capacity for the periods of interest and affirming whether the projected demand (from demand planning) can be met for those periods.
 
 The first step in the supply planning process is to obtain the approved demand plan for each SKU.
 
-## Confirm Internal and External Capacity
+### Confirm Internal and External Capacity
 
 One of the crucial activities in the supply planning process is to confirm whether there is enough capacity to produce the quantity required by the demand plan. Supply planners work tirelessly with production planners on factory floors to affirm that the machines’ available capacity and the workforce needed for all the planning horizons can meet the demand plan. **(Demand, Supply, and Production plans)**
 
@@ -56,21 +59,44 @@ The planner will need to work with the production planner at each facility to co
 
 Please note that the above production schedule refers to a rough-cut capacity plan, and it is not the final schedule. It is a plan that the production scheduler needs to develop to provide the supply planner with a high degree of accuracy on whether the products can be made according to the demand plan. i.e., **demand plan > supply plan > production plan**
 
-## Confirm Material Availability  
+### Confirm Material Availability  
 
 The other crucial activity in the supply planning process is to ensure raw materials and semi-finished components are available to make the required quantity by the timeframe specified in the approved demand plan. Internally, the supply planner may work directly with the material suppliers or go through a materials coordinator to confirm material availability. Supply planning needs to work with external manufacturers' contacts to confirm material availability.
 
-# Constraint Forecast
+## Constraint Forecast
 
-## Develop a Constraint Forecast
+### Develop a Constraint Forecast
 
 After the demand and supply planning process has had time to perform respective due diligence to develop the approved demand and supply plan, the next step is to develop the constrained forecast. As the name indicates, the constrained forecast is a more realistic demand goal that the company as a whole can achieve. The idea is that demand can only be met when resources and capacity are available. 
 
+### Conduct a Consensus Meeting
+
+The main goal of the consensus meeting is to discuss and mitigate the surplus and shortfalls in demand and supply. Each month, after demand and supply planners have approved their plans, they are reviewed and discussed by company leaders.
+
+## Measure Results
+
+### Collect Actual Performance Results
+
+Before measuring performance results, it’s essential to realize that no forecast or plan is perfect, and there is always room for improvement. Results should **not** be used to **penalize anyone (unless there are repeated errors)**. Instead, the main goal of these results is to **drive improvements for the entire planning process**. 
+
+The first step in measuring results is to ensure **metrics or key performance indicators (KPIs) have been identified**. It is good to have no more than 5 to 7 metrics that can help indicate the health of forecast performance, inventory velocity, and order fulfillment. Some standard metrics are **forecast accuracy, inventory turns, and on-time in-full (OTIF)**.  
+
+Once metrics are in place, **data** can then be gathered accordingly. Metrics are typically measured monthly, so historical data needs to be aggregated to the monthly level. These metrics can also be calculated weekly, though they are less common and usually due to specific business requirements.
+
+Notes:
+- Here comes the role of having solid data pipeline (data engineer), where the final result must be a neat dashboard (data analyst). Room for RnD comes with developing statistical models to applied in MLOPs (data scientist-ML Eng.). Maybe, we can build integration between Python, ERP system, and a dashboard (PowerBI or `dash` library), so once a new input comes, a predicted value (predicted time) might be the result; there is high potential to develop many ideas (integrating automation) that involve presenting a future dashboard to stakeholders. 
 
 
 
+- - 
+
+# Course 2: Inventory Management
+
+## Steady-State Demand: No Demand Variability
 
 
+
+- - 
 
 
 # References
