@@ -40,3 +40,39 @@ Forecasting using:
 
 # Supply Planning
 
+## Identify Demand for Each Product and Capacity
+
+supply planning is the process of confirming the available internal and external capacity for the periods of interest and affirming whether the projected demand (from demand planning) can be met for those periods.
+
+The first step in the supply planning process is to obtain the approved demand plan for each SKU.
+
+## Confirm Internal and External Capacity
+
+One of the crucial activities in the supply planning process is to confirm whether there is enough capacity to produce the quantity required by the demand plan. Supply planners work tirelessly with production planners on factory floors to affirm that the machines’ available capacity and the workforce needed for all the planning horizons can meet the demand plan. **(Demand, Supply, and Production plans)**
+
+Assuming that the product of interest is produced in one of the internal manufacturing facilities, it is usually best to utilize the internal capacity first before going to external supplier.
+
+The planner will need to work with the production planner at each facility to confirm the available **production schedules** for the weeks that cover the **time horizon asked by the demand plan**. This includes ensuring machines have sufficient capacity to produce the desired quantity and that laborers are available to operate machines and pack final products.
+
+Please note that the above production schedule refers to a rough-cut capacity plan, and it is not the final schedule. It is a plan that the production scheduler needs to develop to provide the supply planner with a high degree of accuracy on whether the products can be made according to the demand plan. i.e., **demand plan > supply plan > production plan**
+
+## Confirm Material Availability  
+
+The other crucial activity in the supply planning process is to ensure raw materials and semi-finished components are available to make the required quantity by the timeframe specified in the approved demand plan. Internally, the supply planner may work directly with the material suppliers or go through a materials coordinator to confirm material availability. Supply planning needs to work with external manufacturers' contacts to confirm material availability.
+
+# Constraint Forecast
+
+## Develop a Constraint Forecast
+
+After the demand and supply planning process has had time to perform respective due diligence to develop the approved demand and supply plan, the next step is to develop the constrained forecast. As the name indicates, the constrained forecast is a more realistic demand goal that the company as a whole can achieve. The idea is that demand can only be met when resources and capacity are available. 
+
+
+
+
+
+
+
+
+# References
+
+- The main content and structure of this markdown file is referred to the **Coursera Specialization: [Leverage Data Science for a More Agile Supply Chain](https://www.coursera.org/specializations/leverage-data-science-agile-supply-chain)**
