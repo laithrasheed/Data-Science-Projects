@@ -33,11 +33,11 @@ We are a Surveillance and CCTV company. We have a standard CCTV system, and we w
 
 #### Goals
 
-- To gain knowledge by 
+- To gain knowledge by completing **[Leverage Data Science for a More Agile Supply Chain](https://github.com/laithrasheed/Data-Science-Projects/tree/main/Supply%20Chains%20Domain%20Knowledge/Coursera%20Specialization%20-%20Leverage%20Data%20Science%20for%20a%20More%20Agile%20Supply%20Chain)** **Specialization**.
 
-#### Problem Statement
+- To apply Data Science, AI, and Automation ideas by implementing hands on project that mimic a real case business scenario in the level of supply chains management.
 
-We are a food and beverages manufacturers. We
+#### [Supply Chain Project]()
 
 
 
