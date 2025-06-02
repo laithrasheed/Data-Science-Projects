@@ -94,6 +94,21 @@ Notes:
 
 ## Steady-State Demand: No Demand Variability
 
+### Demand Behavior
+
+**Variability**, by definition, is the lack of a consistent or fixed pattern. For supply chains, variability in demand means **inconsistency** in how customers purchase goods. For example, suppose a customer purchases a particular brand of soap with the same attributes (color, shape, scent, etc.) once a month. In this case, their demand behavior is **consistent** and does not contribute any variability to the system;**we call this scenario steady-state demand**. But if a customer purchases two medium-sized lavender scented soaps this month, ten lemon-scented the next, and then makes no purchases for the following three months, this customer **is contributing variability to the system**. In other words, we say **this scenario has demand variability**.
+
+### Lead Time
+
+Some typical lead times are: Manufacturing lead time, freight lead time (ocean or air), custom and processing lead time at the ports, last-mile delivery lead time. 
+
+Note: I think that `lead time` would be a dependent variable where we can use data to predict it. We need to define it properly, so once independent variables, (for example mentioned lead times above but not limited), are defined we can gather data, then predict estimators, and find out the final statistical representation. I think `lead time` value determines **WHEN** we should place any order. However, the **amount** value also wanted by stakeholders, where I think we can analyze demand and supply data, predict initial values, then we can develop statistical model for EACH finished good product separately. 
+
+Note: The instructor of the course showed an equation on how to calculate the reorder point.. With reference to my note above, you may start RnD project, you will need first to search for existed theories especially about cases where demand behavior is not consistent (variable). However, I believe ML would solve it. Second, it depends on the real-case data from the proposed supply chain company.
+
+- Check the practical notebook.
+
+
 
 
 - - 
