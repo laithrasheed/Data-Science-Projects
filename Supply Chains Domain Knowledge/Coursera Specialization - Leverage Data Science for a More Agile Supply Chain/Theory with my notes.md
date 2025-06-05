@@ -106,10 +106,15 @@ Note: I think that `lead time` would be a dependent variable where we can use da
 
 Note: The instructor of the course showed an equation on how to calculate the reorder point.. With reference to my note above, you may start RnD project, you will need first to search for existed theories especially about cases where demand behavior is not consistent (variable). However, I believe ML would solve it. Second, it depends on the real-case data from the proposed supply chain company.
 
-- Check the practical notebook.
+- Check the practical notebook for the activity.
 
 
+## Inventory Management with Demand Variability
 
+### Sources of Variability
+
+
+- Check the practical notebook for the activity.
 
 - - 
 
