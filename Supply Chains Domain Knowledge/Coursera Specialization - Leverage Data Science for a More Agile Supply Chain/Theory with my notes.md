@@ -113,8 +113,25 @@ Note: The instructor of the course showed an equation on how to calculate the re
 
 ### Sources of Variability
 
+- The steady-state case often does not exist in the rea world.
 
-- Check the practical notebook for the activity.
+-  In the real world, we often encounter variabilities, and some common ones are:
+
+    1. Transportation disruption due to weather or political events
+    2. Shortage of materials or components due to labor disputes
+    3. Unexpected increase in demand due to factors not previously considered
+
+### Ways to Counter Variability
+
+there are several ways to mitigate the effects of variability on the supply chain, which include the following:
+
+1. Increase available information
+2. Shorten lead times
+3. Hold optimal safety stock
+
+
+- Check the practical notebook for the activity part
+
 
 - - 
 
@@ -122,3 +139,4 @@ Note: The instructor of the course showed an equation on how to calculate the re
 # References
 
 - The main content and structure of this markdown file is referred to the **Coursera Specialization: [Leverage Data Science for a More Agile Supply Chain](https://www.coursera.org/specializations/leverage-data-science-agile-supply-chain)**
+
