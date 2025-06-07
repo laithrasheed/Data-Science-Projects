@@ -37,7 +37,6 @@ We are a Surveillance and CCTV company. We have a standard CCTV system, and we w
 
 - To apply Data Science, AI, and Automation ideas by implementing hands on project that mimic a real case business scenario in the level of supply chains management.
 
-#### [Supply Chain Project]()
 
 
 
