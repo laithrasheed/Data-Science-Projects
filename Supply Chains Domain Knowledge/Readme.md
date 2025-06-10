@@ -23,9 +23,5 @@ Starting from 26th of May 2025 I am developing this repository where I will appl
 ### Resources from Coursera
 
 - [Coursera Specialization - Leverage Data Science for a More Agile Supply Chain](https://github.com/laithrasheed/Data-Science-Projects/tree/main/Supply%20Chains%20Domain%20Knowledge/Coursera%20Specialization%20-%20Leverage%20Data%20Science%20for%20a%20More%20Agile%20Supply%20Chain)
-### Kaggle Resources
 
-- [DataCo Smart Supply Chain Dataset](https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis?utm_source=chatgpt.com)
-
-###### [ChatGPT Resource](https://chatgpt.com/share/6835a0ca-a8b0-8012-9ce7-7bbd1e2b39ed)
-
+- [Coursera - Specialization - Machine Learning for Supply Chains](https://github.com/laithrasheed/Data-Science-Projects/tree/main/Supply%20Chains%20Domain%20Knowledge/Coursera%20Specialization%20-%20Machine%20Learning%20for%20Supply%20Chains)
