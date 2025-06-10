@@ -1034,6 +1034,21 @@ files = [
 ]
 
 [[package]]
+name = "pulp"
+version = "3.2.1"
+description = "PuLP is an LP modeler written in python. PuLP can generate MPS or LP files and call GLPK, COIN CLP/CBC, CPLEX, and GUROBI to solve linear problems."
+optional = false
+python-versions = ">=3.9"
+files = [
+    {file = "pulp-3.2.1-py3-none-any.whl", hash = "sha256:c6cf7fe84cef15795bc7c27e2f3c6784db5cf6ebf68e94d5a659b02415f982c5"},
+    {file = "pulp-3.2.1.tar.gz", hash = "sha256:fc6c02c47c06342c586b175924add753cad7638ff6149b3b43e87ac6709ac469"},
+]
+
+[package.extras]
+open-py = ["cylp", "highspy", "pyscipopt"]
+public-py = ["coptpy", "gurobipy", "xpress"]
+
+[[package]]
 name = "pure-eval"
 version = "0.2.3"
 description = "Safely evaluate AST nodes without side effects"
@@ -1416,4 +1431,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "2080d5db0987e0d0fc287120f153ac032b7105fc7b7ea98b2372a202d5278034"
+content-hash = "c012ee0f16649115e71877e2e39ea1f8e6d7c94d1f83d2ffca1b1450bd175c95"
